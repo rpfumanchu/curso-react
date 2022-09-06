@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+
+h1{
+  max-width: 940px;
+        /*con em le decimos que el valor sera relativo a lo que ayamos usado en el contenedor*/
+  font-size: 2.5em;
+  /* Lato va ser nuestro tipo de letra y si el navegador no la detectar vamos a tener sans-serif como respaldo*/
+  font-family: Lato, sans-serif;
+  /* con font-weight seleccionamos el grueso de la linea*/
+  font-weight: 700;
+  /* con line-height ponemos la altura de la linea*/
+  line-height: 1.1;
+  /* con margin le configuramos el margen ,superior-inferior y izqierda-derecha*/
+  margin: 40px 0;
+
+}
+
+.App{
+  /*para configurar la altura minima, con 100vh nos aseguramos de que va a coger el 100% de la pantalla del navegador*/
+  min-height: 100vh;
+  /*con display: flex, con flex es una funcion para decirle  como queremos que se organicen los distintos elementos dentro del contenedor*/
+  display:flex;
+  flex-wrap: wrap;
+  /*se van alinear en el centro*/
+  align-items: center;
+  /*justify.content lo usamos para centrarlo horizontalmente*/
+  justify-content: center;
+  /*para alinear el texto en el centro*/
+  text-align: center;
+
+}
+
+.contenedor-principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
